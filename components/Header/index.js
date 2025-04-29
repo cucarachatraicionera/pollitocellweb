@@ -28,7 +28,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 className="cursor-pointer flex items-center"
               >
                 {/* Reemplazamos el logo de imagen con texto */}
-                <span className="text-2xl font-bold">arqCubico</span>
+                <span className="text-2xl font-bold">Pollito Cell</span>
               </div>
 
               <div className="flex items-center">
@@ -129,7 +129,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           className="cursor-pointer flex items-center"
         >
           {/* Reemplazamos el logo de imagen con texto */}
-          <span className="text-2xl font-bold">arqCubico</span>
+          <span className="text-2xl font-bold">Pollito Cell</span>
         </div>
         {!isBlog ? (
           <div className="flex">
