@@ -8,7 +8,6 @@ import { useAppSelector } from "@/redux/store";
 import { useSelector } from "react-redux";
 import { selectTotalPrice } from "@/redux/features/cart-slice";
 import { useCartModalContext } from "@/app/context/CartSidebarModalContext";
-import Image from "next/image";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -54,21 +53,17 @@ const Header = () => {
       }`}
     >
       <div className="max-w-[1170px] mx-auto px-4 sm:px-7.5 xl:px-0">
-        {/* <!-- header top start --> */}
         <div
           className={`flex flex-col lg:flex-row gap-5 items-end lg:items-center xl:justify-between ease-out duration-200 ${
             stickyMenu ? "py-4" : "py-6"
           }`}
         >
-          {/* <!-- header top left --> */}
           <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-5 sm:gap-10">
-            <Link className="flex-shrink-0" href="/">
-              <Image
-                src="/images/logo/logo.svg"
-                alt="Logo"
-                width={219}
-                height={36}
-              />
+            <Link
+              className="flex-shrink-0 text-2xl font-bold text-blue-700"
+              href="/"
+            >
+              Pollito Cell
             </Link>
 
             <div className="max-w-[475px] w-full">
@@ -77,7 +72,6 @@ const Header = () => {
                   <CustomSelect options={options} />
 
                   <div className="relative max-w-[333px] sm:min-w-[333px] w-full">
-                    {/* <!-- divider --> */}
                     <span className="absolute left-0 top-1/2 -translate-y-1/2 inline-block w-px h-5.5 bg-gray-4"></span>
                     <input
                       onChange={(e) => setSearchQuery(e.target.value)}
@@ -115,15 +109,10 @@ const Header = () => {
             </div>
           </div>
 
-          {/* <!-- header top right --> */}
           <div className="flex w-full lg:w-auto items-center gap-7.5">
-            
-            {/* <!-- divider --> */}
             <span className="hidden xl:block w-px h-7.5 bg-gray-4"></span>
 
             <div className="flex w-full lg:w-auto justify-between items-center gap-5">
-
-              {/* <!-- Hamburger Toggle BTN --> */}
               <button
                 id="Toggle"
                 aria-label="Toggler"
@@ -148,7 +137,6 @@ const Header = () => {
                       }`}
                     ></span>
                   </span>
-
                   <span className="block absolute right-0 w-full h-full rotate-45">
                     <span
                       className={`block bg-dark rounded-sm ease-in-out duration-200 delay-300 absolute left-2.5 top-0 w-0.5 h-full ${
@@ -163,53 +151,39 @@ const Header = () => {
                   </span>
                 </span>
               </button>
-              {/* //   <!-- Hamburger Toggle BTN --> */}
             </div>
           </div>
         </div>
-        {/* <!-- header top end --> */}
       </div>
 
       <div className="border-t border-gray-3">
         <div className="max-w-[1170px] mx-auto px-4 sm:px-7.5 xl:px-0">
           <div className="flex items-center justify-between">
-            {/* <!--=== Main Nav Start ===--> */}
             <div
               className={`w-[288px] absolute right-4 top-full xl:static xl:w-auto h-0 xl:h-auto invisible xl:visible xl:flex items-center justify-between ${
                 navigationOpen &&
                 `!visible bg-white shadow-lg border border-gray-3 !h-auto max-h-[400px] overflow-y-scroll rounded-md p-5`
               }`}
             >
-              {/* <!-- Main Nav Start --> */}
-              <nav>
-                
-              </nav>
-              {/* //   <!-- Main Nav End --> */}
+              <nav></nav>
             </div>
-            {/* // <!--=== Main Nav End ===--> */}
 
-            {/* // <!--=== Nav Right Start ===--> */}
             <div className="hidden xl:block">
               <ul className="flex items-center gap-5.5">
                 <li className="py-4">
                   <a
                     href="#"
                     className="flex items-center gap-1.5 font-medium text-custom-sm text-dark hover:text-blue"
-                  >
-                    
-                  </a>
+                  ></a>
                 </li>
-
                 <li className="py-4">
                   <Link
                     href="/wishlist"
                     className="flex items-center gap-1.5 font-medium text-custom-sm text-dark hover:text-blue"
-                  >
-                  </Link>
+                  ></Link>
                 </li>
               </ul>
             </div>
-            {/* <!--=== Nav Right End ===--> */}
           </div>
         </div>
       </div>
