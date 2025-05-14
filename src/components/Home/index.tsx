@@ -16,8 +16,7 @@ const Home = () => {
       <PromoBanner />
       <BestSeller />
       <CounDown />
-      <Testimonials />
-      <Newsletter />
+      
     </main>
   );
 };
