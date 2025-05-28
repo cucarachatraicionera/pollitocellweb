@@ -23,7 +23,9 @@ const PromoBanner = () => {
             </p>
 
             <a
-              href="#"
+              href="https://wa.link/r0bnfv"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex font-medium text-custom-sm text-white bg-blue py-[11px] px-9.5 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
             >
               VER OFERTA
@@ -64,7 +66,9 @@ const PromoBanner = () => {
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/r0bnfv"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex font-medium text-custom-sm text-white bg-teal py-2.5 px-8.5 rounded-md ease-out duration-200 hover:bg-teal-dark mt-9"
               >
                 SOLICITA SOPORTE
@@ -97,7 +101,9 @@ const PromoBanner = () => {
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/r0bnfv"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex font-medium text-custom-sm text-white bg-orange py-2.5 px-8.5 rounded-md ease-out duration-200 hover:bg-orange-dark mt-7.5"
               >
                 VER PRODUCTOS

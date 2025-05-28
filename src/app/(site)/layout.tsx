@@ -41,7 +41,7 @@ export default function RootLayout({
                     <Header />
                     {children}
 
-                    <QuickViewModal />
+                    
                     <CartSidebarModal />
                     <PreviewSliderModal />
                   </PreviewSliderProvider>
