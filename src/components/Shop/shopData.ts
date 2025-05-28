@@ -69,10 +69,10 @@ const shopData: Product[] = [
     },
   },
   {
-    title: "Apple Watch Ultra",
+    title: "iPhone 13 Pro Max 256GB",
     reviews: 3,
-    price: 99.0,
-    discountedPrice: 29.0,
+    price: 3910000,
+    discountedPrice: 2900000,
     id: 5,
     imgs: {
       thumbnails: [
