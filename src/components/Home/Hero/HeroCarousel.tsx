@@ -42,11 +42,13 @@ const HeroCarousal = () => {
             </h1>
 
             <p>
-            Tecnología de alto rendimiento para quienes exigen lo mejor. 
+              Tecnología de alto rendimiento para quienes exigen lo mejor.
             </p>
 
             <a
-              href="#"
+              href="https://wa.link/r0bnfv"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex font-medium text-white text-custom-sm rounded-md bg-dark py-3 px-9 ease-out duration-200 hover:bg-blue mt-10"
             >
               Compralo Ya
@@ -63,8 +65,8 @@ const HeroCarousal = () => {
           </div>
         </div>
       </SwiperSlide>
+
       <SwiperSlide>
-        {" "}
         <div className="flex items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">
           <div className="max-w-[394px] py-10 sm:py-15 lg:py-26 pl-4 sm:pl-7.5 lg:pl-12.5">
             <div className="flex items-center gap-4 mb-7.5 sm:mb-10">
@@ -79,7 +81,7 @@ const HeroCarousal = () => {
             </div>
 
             <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
-              <a href="#">iPhone 16 plus 256GB </a>
+              <a href="#">iPhone 16 plus 256GB</a>
             </h1>
 
             <p>
@@ -87,7 +89,9 @@ const HeroCarousal = () => {
             </p>
 
             <a
-              href="#"
+              href="https://wa.link/r0bnfv"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex font-medium text-white text-custom-sm rounded-md bg-dark py-3 px-9 ease-out duration-200 hover:bg-blue mt-10"
             >
               Compralo Ya
