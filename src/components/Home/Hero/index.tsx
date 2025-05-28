@@ -34,14 +34,14 @@ const Hero = () => {
 
                     <div>
                       <p className="font-medium text-dark-4 text-custom-sm mb-1.5">
-                        limited time offer
+                        oferta limitada
                       </p>
                       <span className="flex items-center gap-3">
                         <span className="font-medium text-heading-5 text-red">
-                          $699
+                          $4.200.000
                         </span>
                         <span className="font-medium text-2xl text-dark-4 line-through">
-                          $999
+                          $5.600.000
                         </span>
                       </span>
                     </div>
