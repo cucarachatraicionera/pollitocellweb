@@ -1,10 +1,10 @@
 import { Product } from "@/types/product";
 const shopData: Product[] = [
   {
-    title: "Havit HV-G69 USB Gamepad",
+    title: "Samsung Galaxy S24 Ultra",
     reviews: 15,
-    price: 59.0,
-    discountedPrice: 29.0,
+    price: 4100000,
+    discountedPrice: 3600000,
     id: 1,
     imgs: {
       thumbnails: [
@@ -18,10 +18,10 @@ const shopData: Product[] = [
     },
   },
   {
-    title: "iPhone 14 Plus , 6/128GB",
+    title: "iPhone 14 Plus 128GB",
     reviews: 5,
-    price: 899.0,
-    discountedPrice: 99.0,
+    price: 4890000,
+    discountedPrice: 4050000,
     id: 2,
     imgs: {
       thumbnails: [
@@ -35,10 +35,10 @@ const shopData: Product[] = [
     },
   },
   {
-    title: "Apple iMac M1 24-inch 2021",
+    title: "XIAMOI 14T PRO 6GB 128GB",
     reviews: 5,
-    price: 59.0,
-    discountedPrice: 29.0,
+    price: 3900000,
+    discountedPrice: 2900000,
     id: 3,
     imgs: {
       thumbnails: [
@@ -52,10 +52,10 @@ const shopData: Product[] = [
     },
   },
   {
-    title: "MacBook Air M1 chip, 8/256GB",
+    title: "iPhone 15 pro Max 256GB",
     reviews: 6,
-    price: 59.0,
-    discountedPrice: 29.0,
+    price: 5900000,
+    discountedPrice: 4789000,
     id: 4,
     imgs: {
       thumbnails: [
