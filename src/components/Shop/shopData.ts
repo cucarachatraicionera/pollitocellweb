@@ -120,10 +120,10 @@ const shopData: Product[] = [
     },
   },
   {
-    title: "Asus RT Dual Band Router",
+    title: "Redmi A05 128GB 6GB RAM",
     reviews: 15,
-    price: 59.0,
-    discountedPrice: 29.0,
+    price: 590000,
+    discountedPrice: 450000,
     id: 8,
     imgs: {
       thumbnails: [
