@@ -86,10 +86,10 @@ const shopData: Product[] = [
     },
   },
   {
-    title: "Logitech MX Master 3 Mouse",
+    title: "iPhone 12 min 128GB",
     reviews: 15,
-    price: 59.0,
-    discountedPrice: 29.0,
+    price: 3900000,
+    discountedPrice: 2900000,
     id: 6,
     imgs: {
       thumbnails: [
@@ -103,10 +103,10 @@ const shopData: Product[] = [
     },
   },
   {
-    title: "Apple iPad Air 5th Gen - 64GB",
+    title: "iPhone 7 Plus 128GB",
     reviews: 15,
-    price: 59.0,
-    discountedPrice: 29.0,
+    price: 590000,
+    discountedPrice: 450000,
     id: 7,
     imgs: {
       thumbnails: [
